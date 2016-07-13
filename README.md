@@ -7,4 +7,4 @@ The rules are very simple:
 
 Developed using Javascript, HTML and CSS
 
-[TRY IT] (https://cdn.rawgit.com/SimoneSabba/light-out/master/index.html)
+<a href="https://cdn.rawgit.com/SimoneSabba/light-out/master/index.html" target="_blank">TRY IT</a>
