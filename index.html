@@ -8,14 +8,21 @@
 <body>
   <div id="main">
     <h1>Lights Out!</h1>
+    <p>Turn all squares in orange!</p>
+    <div id="counter" style="display: none">
+      <h3>
+        Total moves: <span id="moves"></span>
+      </h3> 
+    </div>
+    <div id="message" style="display: none">
+      <h2> CONGRATULATIONS! </h2>
+
+    </div>
     <canvas id="canvas" width="1280" height="1280" style="display: none"></canvas>
+    Choose board size: <input type="number" id="size" min=1></input>
     <button id='play'>PLAY!</button>
   </div>
 
-  <!--
-  <script src="js/art.js"></script>
-  <script src="js/board.js"></script>
-  -->
   <script src="js/table.js"></script>
   <script src="js/boardGame.js"></script>
   <script src="js/main.js"></script>

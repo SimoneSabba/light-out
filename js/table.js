@@ -14,7 +14,7 @@ Table.prototype.initCell = function (i, j, state) {
   	x = (this.cellDimension + this.cellPadding) * i + this.cellPadding,
   	y = (this.cellDimension + this.cellPadding) * j + this.cellPadding, 
   	colorOff = '#66b5ff',
-  	colorOn = '#dd6797',
+  	colorOn = '#ff6600',
   	color = state ? colorOn : colorOff;
 
   this.setCellStyle(x, y, this.cellDimension, this.cellDimension, color);
