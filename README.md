@@ -6,3 +6,5 @@ The rules are very simple:
 - GOAL: turn out all the lights to orange
 
 Developed using Javascript, HTML and CSS
+
+[TRY IT] (https://cdn.rawgit.com/SimoneSabba/light-out/master/index.html)
